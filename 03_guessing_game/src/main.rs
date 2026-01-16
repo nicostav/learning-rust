@@ -1,6 +1,8 @@
 // Import the standard input output library to accept user input
 use std::io;
-
+// Import the ordering library
+use std::cmp::Ordering;
+// Import the random number generation library
 use rand::Rng;
 
 // Main function
@@ -32,5 +34,7 @@ fn main() {
 
     // Print the returned value
     println!("You guessed: {guess}");
+
+    match 
 
 }
